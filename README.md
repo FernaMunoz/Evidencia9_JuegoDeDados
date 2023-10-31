@@ -4,22 +4,21 @@ Evidencia 08: Tienda Online (e-shop)
 
 
 Integrantes 
+- Valentina Huenchuñir
 
-Valentina Huenchuñir
+- Maria Jose Powell
 
-Maria Jose Powell
-
-Fernanda Muñoz
+- Fernanda Muñoz
 
 
 Profesor:
-Dr. Samuel Sepulveda
+- Dr. Samuel Sepulveda
 
 Asignatura:
-Programación Orientada a Objetos
+- Programación Orientada a Objetos
 
 Fecha:
-01 de noviembre de 2023
+- 01 de noviembre de 2023
 
 
 
@@ -60,50 +59,39 @@ Clases identificadas:
 - class Dado
 
 Atributos: 
-
-
-int caraSuperior
+- int caraSuperior
 
 
 Metodos:
-
-
-lanzar() // lanza el dado utilizando un random
+- lanzar() // lanza el dado utilizando un random
 getCaraSuperior()
 
 
 
 
 class JuegoDeDatos
-
-
 Atributos:
-
-int dado Dado1
-int dado Dado2
+- int dado Dado1
+- int dado Dado2
 
 
 Métodos:
-
-
-JuegoDados()
-simularJugar()
-resultadosJuego()
+- JuegoDados()
+- simularJugar()
+- resultadosJuego()
 
 
 
 class Calculadora
 
-
 Metodos:
-
-sumaDeCara()
+- sumaDeCara()
 
 
 public class Main
 
 Metodos:
-main()
+- main()
 // en el menú esta la condicion if y else para decir si la suma e la cara de los dos dados es 7 va a ganar, si no pierde.
 
 
@@ -111,5 +99,35 @@ main()
 
 
 Clase Dado <- - - - - - - - - - - - - - - - - - - - - - Clase Calculadora (Dependencia)
+
+
 Clase Calculadora - - - - - - - - - - - - - - - - - - - - > Clase JuegoDados (Dependencia)
+
+
 Clase Dado —————————————— Clase JuegoDados (Composición)
+
+
+Modelo UML
+
+
+![image](https://github.com/FernaMunoz/JuegoDados/assets/142464144/1833c665-751d-4542-b676-a5b994e35aef)
+
+
+Codigo generado por Visual Paradigm
+
+
+![image](https://github.com/FernaMunoz/JuegoDados/assets/142464144/539479fd-e59f-4e0d-a38e-bfb641d560e2)
+
+
+
+![image](https://github.com/FernaMunoz/JuegoDados/assets/142464144/88eacfdb-3db4-4ead-bdea-6d9e3ab7cbb7)
+
+
+![image](https://github.com/FernaMunoz/JuegoDados/assets/142464144/2e342892-e970-45cf-b8b4-21946b9dbb60)
+
+
+
+
+
+
+
