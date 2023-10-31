@@ -4,6 +4,7 @@ Evidencia 08: Tienda Online (e-shop)
 
 
 Integrantes 
+
 Valentina Huenchuñir
 
 Maria Jose Powell
@@ -24,7 +25,9 @@ Fecha:
 
 Caso Juego de Dados y Modelo de Clases
 
+
 Objetivo: Modelar con UML y VP, para construir una solución basada en el concepto de relaciones entre clases.
+
 
 
 Caso Juego de dados y sus consideraciones:
@@ -49,15 +52,22 @@ Caso Juego de dados y sus consideraciones:
 
 
 Clases identificadas:
-class Dado
-class Calculadora
-class JuegoDados
-class Dado
+
+
+- class Dado
+- class Calculadora
+- class JuegoDados
+- class Dado
+
 Atributos: 
+
+
 int caraSuperior
 
 
 Metodos:
+
+
 lanzar() // lanza el dado utilizando un random
 getCaraSuperior()
 
@@ -65,31 +75,33 @@ getCaraSuperior()
 
 
 class JuegoDeDatos
+
+
 Atributos:
+
 int dado Dado1
 int dado Dado2
 
 
 Métodos:
+
+
 JuegoDados()
 simularJugar()
 resultadosJuego()
 
 
 
-
-
-
-
-
-
-
 class Calculadora
+
+
 Metodos:
+
 sumaDeCara()
 
 
 public class Main
+
 Metodos:
 main()
 // en el menú esta la condicion if y else para decir si la suma e la cara de los dos dados es 7 va a ganar, si no pierde.
