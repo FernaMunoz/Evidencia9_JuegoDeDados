@@ -25,6 +25,11 @@ Fecha:
 Caso Juego de Dados y Modelo de Clases
 
 
+Link documento de google:
+
+https://docs.google.com/document/d/1osnGrezFqk6f_dWNbtQZ0qdz2vWqyeJ8f471obqm728/edit?usp=sharing
+
+
 Objetivo: Modelar con UML y VP, para construir una solución basada en el concepto de relaciones entre clases.
 
 
