@@ -3,7 +3,7 @@ package org.example;
 import java.util.Random;
 
 class Dado{
-    private int caraSuperior; 
+    private int caraSuperior;
 
     public void lanzar(){
         Random random = new Random();
